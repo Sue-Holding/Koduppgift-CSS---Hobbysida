@@ -1,0 +1,116 @@
+table, tr, td {
+    border: 2px solid rgb(219, 162, 92);
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    font-size: 110%;
+    margin: 20px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+body {
+    background-color: bisque;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+
+header {
+    background-color: rgb(219, 162, 92);
+    text-align: center;
+    padding: 20px 40px;
+    margin: 0px;
+}
+
+section {
+    width:auto;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+nav > a {
+    padding: 2px;
+    color: bisque;
+    font-size: 150%;
+}
+
+@media (hover: hover) {
+    /* when hover is supported */
+    a:hover {
+      color: white;
+      background: rgb(219, 162, 92);
+    }
+  }
+
+h1 {
+    padding-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+p, li,  h3 {  
+    font-size: 1.25em;
+}
+
+.grid-item-starter-list > h3 {
+    margin-left: 80px;
+}
+
+.grid-item-list > h2 {
+    margin-right: 120px;
+}
+
+.input-group {
+    padding: 10px;
+    text-align: center;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.input-group input {
+    width: 50%;
+    text-align: center;
+}
+
+.input-selection {
+    text-align: center;
+}
+
+.grid-item-social-media {
+    text-align: center;
+}
+
+#submit-email {
+    width: 50%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: rgb(219, 162, 92);
+    color:black;
+    border-radius: 15px;
+}
+
+#submit-button {
+    width: 50%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: rgb(219, 162, 92);
+    color:black;
+    border-radius: 15px;
+}
+
+#email-input-field {
+    height: 30px;
+}
+
+.tiktok-logo, .insta-logo {
+    margin: 40px;
+}

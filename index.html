@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Exercise: HTML - Hobby site</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/grid-flex.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <h1>Home Nail Salong</h1>
+    <nav class="navBar-flex">
+        <a href="#">Home</a>
+        <a href="#">Shopping</a>
+        <a href="#">Tutorials</a>
+        <a href="#">Design Ideas</a>
+        <a href="#">Gallery</a>
+     </nav>
+</header>
+
+<section class="intro">
+    <h2>How to get started doing your own nails at home!</h2>
+    <p>So you've decided that you want to learn to do your own nails at home and avoid paying the <em>rediculous</em>
+        costs at the salons.<br>
+    But where do you start ???</p>
+</section>
+
+<div class="main-grid">
+<div class="grid-item-starter-list">
+    <h3>Here is a list of a basic starter kit;</h3>
+        <ul>
+            <li>A UV or LED nail lamp</li>
+            <li>100/180 nail files</li>
+            <li>Cleanser and lint free wipes</li>
+            <li>Top and bottom coat</li>
+            <li>Gel colours</li>
+            <li>Some nail brushes and decals/gems etc for nail art</li>
+        </ul>
+        <p>Here are some links to a few shopping sites.</p>
+        <p>
+            <a href="https://nailster.se/products/nailster-premium?variant=42539655135448&gad_source=1&gclid=Cj0KCQjwmOm3BhC8ARIsAOSbapX8YQFJE3CHAJ2MSsb8mmSeWzty-0mbuOYVlZKPHhvwq4aUlZd0OokaAjNREALw_wcB">Nailtser.se</a>
+            <br>
+            <a href="https://nailster.se/products/nailster-premium?variant=42539655135448&gad_source=1&gclid=Cj0KCQjwmOm3BhC8ARIsAOSbapX8YQFJE3CHAJ2MSsb8mmSeWzty-0mbuOYVlZKPHhvwq4aUlZd0OokaAjNREALw_wcB">Cdon.se</a>
+        </p>
+</div>
+
+<picture class="grid-item-photo-kit">
+    <source media="(max-width: 899px)" srcset="media/starter-kit350px.png">
+    <source media="(min-width: 900px)" srcset="media/starter-kit400px.png">
+    <img src="media/starter-kit350px.png"
+    title="A photo of a nail starter kit"
+    alt="Nail Starter Kit">
+</picture>
+
+<div class="grid-item-list">
+    <h2>Now you are ready to start learning</h2>
+    <p>With nails it is very much <em>practice makes perfect.</em> So don't be disshearten if your first sets don't
+        come out exactly as you wanted.</p>
+
+    <h3>What to do first?</h3>
+        <ol>
+            <li>First you want to buff and shape your nails.</li>
+            <li>Push back your cuticles and cut them if needed.</li>
+            <li>Give them a nice wipe using the <strong>cleanser.</strong></li>
+            <li>Use one coat of <strong>Bottom coat</strong> and cure under the lamp according to the cure time listed on the bottle.</li>
+            <li>Choose your desired colour and paint 2-3 layers, curing between each coat.</li>
+            <li>When you are happy, paint one coat of <strong>Top coat</strong> and cure.</li>
+            <li>Finally give your nails a final wipe using the <strong>cleanser</strong> and you're done!</li>
+        </ol>
+</div>
+
+<div class="grid-item-tutorial">
+    <h2>Live Tutorials</h2>
+    <p>I will be holding live tutorials that you can access <a href="#">HERE</a></p>
+    <p>You can see the dates and times here;</p>
+
+<table class="table-dates">
+    <thead>
+        <tr>
+            <td><strong>Date</strong></td>
+            <td><strong>Time</strong></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Monday 16<sup>th</sup> March</td>
+            <td>16:00</td>
+        </tr>
+        <tr>
+            <td>Thursday 4<sup>th</sup> April</td>
+            <td>11:30</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div> <!--class main-grid end-->
+
+    <h2>Here's some inspiration to get you started!!<br>
+    And remember to have fun!</h2>
+
+<div class="section-grid">
+    <picture class="grid-item-green">
+        <source media="(max-width: 899px)" srcset="media/milky-green250px.jpg">
+        <source media="(min-width: 900px)" srcset="media/milky-green283px.jpg">
+        <img src="media/milky-green250px.jpg"
+        title="A photo of milky green nail design"
+        alt="Milky green nail design">
+    </picture>
+
+    <video class="grid-item-hearts" src="media/hearts.mp4" type="video/mp4"
+        title="A video of pink hearts nail design"
+        controls
+        height="400"
+        width="250"
+        no-autoplay
+        loop
+        muted
+        preload="auto">
+    </video>
+
+    <video class="grid-item-xmas" src="media/xmas.mp4" type="video/mp4"
+        title="A video of a christmas nail design"
+        controls
+        height="400"
+        width="250"
+        no-autoplay
+        loop
+        muted
+        preload="auto">
+    </video>
+
+    <picture class="grid-item-leopard">
+        <source media="(max-width: 899px)" srcset="media/leopard-pink250px.jpg">
+        <source media="(min-width: 900px)" srcset="media/leopard-pink283px.jpg">
+        <img src="media/leopard-pink250.jpg"
+        title="a photo of a leopard pink nail design"
+        alt="Leopard pink nail design">
+    </picture>
+</div>
+
+<div class="footer-grid">
+    <div class="grid-item-forms">
+    <h3 class="footer-text-1">If you wish to recieve updates from me please subscribe below!!</h3>
+
+    <form method="post" action="display-input.html">
+        <div class="input-group">
+            <label for="email-input">Email:</label>
+            <input type="email" name="MyEmail" size="25" maxlength="30" placeholder="Type email here ..." id="email-input-field">
+            <br>
+            <input type="submit" value="Submit" id="submit-email">
+        </div>
+    <h3 class="footer-text-2">Would you like to recieve infomation from connecting parties?</h3>
+        <div class="input-selection">
+    <input type="radio" id="a1" name="Alternative" value="1">
+        <label for="a1">Yes</label>
+        <input type="radio" id="a2" name="Alternative" value="2">
+        <label for="a2">No</label>
+            <br>
+        <input type="submit" value="Submit" id="submit-button">
+        </div>
+    </form>
+</div>
+
+
+    <div class="grid-item-social-media">
+    <h2>Don't forget to follow me on <br><a href="https://www.tiktok.com/login">TikTok</a>
+        and <a href="https://www.instagram.com/accounts/login/">Instagram</a></h2>
+    <a class="tiktok-logo" href="https://www.tiktok.com/login"><img src="media/tiktok-logo.png"
+    title="tiktok-logo"
+    alt="TikTok Logo"
+    height="100"></a>
+    <a class="insta-logo" href="https://www.instagram.com/accounts/login/"><img src="media/instagram-logo.jpg"
+    title="instagram-logo"
+    alt="Instagram Logo"
+    height="100"></a>
+    <h2>Thank you for visiting my page!</h2>
+</div>
+</div>
+
+</body>
+
+</html>

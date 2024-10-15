@@ -1,0 +1,89 @@
+/*flex box styling*/
+
+* {    
+    box-sizing: border-box;
+}
+
+/*flex styling for nav bar content */
+.navBar-flex {  
+    display: flex;
+    justify-content: space-between;
+}
+
+/*flex styling for section media content */
+.section-flex {  
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px;
+}
+
+/*grids styling*/
+
+/*parent class of grid main content*/
+ .main-grid {  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr 50px;
+    gap: 20px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* 1st child of grid main content*/
+.grid-item-starter-list { 
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+/* 2nd child of grid main content*/
+.grid-item-photo-kit { 
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    margin-left: 80px;
+}
+
+/* 3th child of grid main content*/
+.grid-item-list { 
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;  
+}
+
+/* 4th child of grid main content*/
+.grid-item-tutorial { 
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;  
+    text-align: center;
+    margin-top: 60px;
+} 
+
+/*parent class of grid footer content*/
+.footer-grid {  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* 1st child of grid footer content*/
+.grid-item-forms { 
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+/* 2nd child of grid footer content*/
+.grid-item-social-media { 
+    grid-column: 2 / 2 ;
+    grid-row: 1 / 1;
+    padding-top: 50px;
+}
+
+
+
+
+
+
